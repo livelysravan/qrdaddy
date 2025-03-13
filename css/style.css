@@ -1624,3 +1624,44 @@ span.error {
   .service .service-about h3 {
     font-size: 1.2rem;
     margin-bottom: 10px; }
+    .whatsapp-contact {
+      text-align: center;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .whatsapp-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 25px;
+      background-color: #25d366; /* WhatsApp green */
+      color: white;
+      text-decoration: none;
+      border-radius: 50px; /* More modern, pill-shaped buttons */
+      font-weight: 500;
+      font-size: 16px;
+      width: 220px; /* Fixed width for consistency */
+      margin-bottom: 15px; /* Gap between buttons */
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    }
+    
+    .whatsapp-button:hover {
+      background-color: #1da851; /* Darker green on hover */
+      transform: translateY(-2px); /* Slight lift on hover for modern feel */
+    }
+    
+    .whatsapp-button .whatsapp-icon {
+      margin-right: 10px;
+      font-size: 18px;
+    }
+    
+    .whatsapp-note {
+      margin-top: 10px;
+      color: #777;
+      font-size: 14px;
+      font-style: italic;
+    }
